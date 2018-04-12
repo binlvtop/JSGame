@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tetris</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        table {
+            margin: 100px auto;
+        }
+        
+        table,
+        tr,
+        td {
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-collapse: collapse;
+        }
+        
+        tr,
+        td {
+            width: 18px;
+            height: 18px;
+        }
+        
+        .L {
+            background: linear-gradient(to bottom right, #00b09b, #96c93d);
+        }
+        
+        .I {
+            background: linear-gradient(to bottom right, #cac531, #f3f9a7);
+        }
+        
+        .T {
+            background: linear-gradient(to bottom right, #800080, #ffc0cb);
+        }
+        
+        .J {
+            background: linear-gradient(to bottom right, #00f260, #0575e6);
+        }
+        
+        .O {
+            background: linear-gradient(to bottom right, #fc4a1a, #f7b733);
+        }
+        
+        .S {
+            background: linear-gradient(to bottom right, #e1eec3, #f05053);
+        }
+        
+        .Z {
+            background: linear-gradient(to bottom right, #74ebd5, #acb6e5);
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+</body>
+
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/block_json.js"></script>
+<script src="js/Game.js"></script>
+<script src="js/Map.js"></script>
+<script src="js/Block.js"></script>
+<script>
+    var game = new Game();
+</script>
