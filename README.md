@@ -1,4 +1,6 @@
 # JSGame
+![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 Some simple but classic games written in JavaScripe.
 
 Now,there are the following items now:
@@ -25,3 +27,7 @@ It's just HTML, CSS, and javascript. Confirm that you have downloaded the entire
 # CHANGELOG
 
 [CHANGELOG](https://github.com/baylin87/JSGame/releases)
+
+# License
+
+[MIT](https://github.com/baylin87/JSGame/blob/master/LICENSE)
