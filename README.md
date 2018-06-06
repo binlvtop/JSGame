@@ -7,6 +7,8 @@ Now,there are the following items now:
 
 - SnakeGame
 - Tetris
+- FlappyBird
+- AircraftWar
 
 # Demo
 
